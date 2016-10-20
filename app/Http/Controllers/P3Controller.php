@@ -105,7 +105,7 @@ class P3Controller extends Controller
 
       $file_loc = Storage::url('app/names_data.csv');
       #$file = Storage::disk('local')->put('names_data.csv', 'Contents');
-      $filename = base_path('/storage/app/names_data.csv');
+      $filename = base_path('storage/app/names_data.csv');
 
       $file = fopen($filename, "r");
       #$file = Input::file($filename);
