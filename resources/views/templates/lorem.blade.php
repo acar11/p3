@@ -2,7 +2,7 @@
 
  @section('content')
 
- <br>
+
 	&nbsp; <a href='/'>&larr; home</a>
 
 	<h1>&nbsp;&nbsp;Lorem Ipsum Text Generator</h1>
@@ -27,3 +27,5 @@
         @endforeach
     </ul>
   @endif
+<br>
+@endsection

@@ -2,10 +2,10 @@
 
  @section('content')
 
-<br>
+
 <a href='/'>&nbsp; &larr; home</a>
 
-	<h1>&nbsp;&nbsp;&nbsp;User Generator</h1>
+	<h1>&nbsp;&nbsp;User Generator</h1>
 
 	<form method="POST" action="/show_users">
     {{ csrf_field() }}
@@ -30,3 +30,5 @@
         @endforeach
     </ul>
   @endif
+<br>
+  @endsection

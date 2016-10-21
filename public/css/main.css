@@ -1,5 +1,11 @@
+
 .container {
-			margin-top:15px;
+			margin-top:5px;
+      margin: auto 10px;
+      width: auto;
+      height: auto;
+      background-color: #e0e0e0;
+
 }
 
 .lorem-text-results {
@@ -8,4 +14,12 @@
 
 input[type=text] {
 			width:35px;
+}
+
+#roundc {
+    border-radius: 25px;
+    background: #FCA309;
+    padding: 20px;
+    width: auto;
+    height: auto;
 }

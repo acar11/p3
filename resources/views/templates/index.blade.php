@@ -16,17 +16,17 @@
            The book or brochure can be shown to the client for approval.
         </p>
 </blockquote>
-<p>Create random text filler for your applications.</p>
+<ul><li>Create random text filler for your applications.</li></ul>
 
 <a href='/lorem'>Generate lorem-ipsum here</a>
 
 <br>
 
 <h2>Random User Generator</h2>
-<p>Create random user data for your applications. Like Lorem Ipsum, but for people.</p>
+<ul><li>Create random user data for your applications.</li></ul>
 
 <a href='/user'>Generate users here</a>
-
+<br><br>
 @stop
 
 @section('footer')

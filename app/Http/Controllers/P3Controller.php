@@ -136,7 +136,7 @@ class P3Controller extends Controller
         # Just names
         if($user_request && !$user_email && !$user_web){
 
-          $pwd .= $get_names[$x].'<br>';
+          $pwd .= '<p>'.$get_names[$x].'</p>';
           // Remove the last - from the result string
           $result = substr($pwd, 0, -1);
 
@@ -145,7 +145,7 @@ class P3Controller extends Controller
         if($user_request && $user_email && !$user_web){
 
           $email = array_rand(array_flip($all_emails), 1);
-          $pwd .= $get_names[$x]." | ".$email.'<br>';
+          $pwd .= '<p>'.$get_names[$x]." | ".$email.'</p>';
           // Remove the last - from the result string
           $result = substr($pwd, 0, -1);
 
@@ -154,7 +154,7 @@ class P3Controller extends Controller
         if($user_request && !$user_email && $user_web){
 
           $web = array_rand(array_flip($all_web), 1);
-          $pwd .= $get_names[$x]." | ".$web.'<br>';
+          $pwd .= '<p>'.$get_names[$x]." | ".$web.'</p>';
           // Remove the last - from the result string
           $result = substr($pwd, 0, -1);
 
