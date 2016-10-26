@@ -30,6 +30,15 @@ blockquote {
     padding: 10px 20px;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:focus, a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .lorem-text-results {
 			margin-top:15px;
 }
