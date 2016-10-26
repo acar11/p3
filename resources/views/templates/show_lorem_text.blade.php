@@ -2,16 +2,16 @@
 
 @section('title')
     Show Lorem-Ipsum Text Results
-@stop
+@endsection
 
 @section('content')
     @if($results)
-       {!! $results !!} 
+       {!! $results !!}
     @else
       <p> We have a problem, please try again. </p>
     @endif
     <br><br>
-@stop
+@endsection
 
 <br>
 <a href='/lorem'>&nbsp; &larr; back to lorem-ipsum</a>

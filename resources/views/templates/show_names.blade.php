@@ -2,16 +2,16 @@
 
 @section('title')
     Show Names Data Results
-@stop
+@endsection
 
 @section('content')
     @if($result)
-        {!! $result !!} 
+        {!! $result !!}
     @else
       <p> We have a problem, please try again. </p>
     @endif
     <br><br>
-@stop
+@endsection
 
 <br>
 <a href='/user'>&nbsp; &larr; back to User Generator</a>

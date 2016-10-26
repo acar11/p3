@@ -23,12 +23,8 @@
 <br>
 
 <h2>Random User Generator</h2>
-<ul><li>Create random user data for your applications.</li></ul>
+<ul><li>Using the same idea as the lorem-ipsum text generator above. Create random user data for your applications.</li></ul>
 
 <a href='/user'>Generate users here</a>
 <br><br>
-@stop
-
-@section('footer')
-    <!--p>&copy; {{ date('Y') }}</p-->
-@stop
+@endsection

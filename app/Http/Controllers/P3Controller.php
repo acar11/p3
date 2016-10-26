@@ -10,7 +10,6 @@ use App\Http\Requests;
 
 class P3Controller extends Controller
 {
-     #use joshtronic\LoremIpsum;
     /**
      * Display a listing of the resource.
      *
@@ -18,7 +17,6 @@ class P3Controller extends Controller
      */
     public function index()
     {
-        #return 'Hi from the P3 controller!';
         return view('templates.index')->with('content');
     }
 
@@ -29,9 +27,6 @@ class P3Controller extends Controller
      */
     public function create()
     {
-        #$gen = new joshtronic\LoremIpsum();
-        #$para = $gen->paragraphs(4, 'p');
-
         return view('templates.lorem')->with('content');
     }
 
@@ -44,7 +39,7 @@ class P3Controller extends Controller
     */
     public function show_lorem_text(Request $request) {
 
-      # Validate the request data
+      # Validate the requested data
       $this->validate($request, [
           'paragraphs' => 'Required|Integer|Min:1|Max:99',
       ]);
@@ -54,27 +49,24 @@ class P3Controller extends Controller
 
       $gen = new joshtronic\LoremIpsum();
 
-      $word = $gen->word();
-      $words = $gen->words(11);
-      #return $words;
-
-      $sentence = $gen->sentence();
-      $sentences = $gen->sentences(5);
-      #return $sentence;
-
-      $paragraph = $gen->paragraph();
-      #$para = $gen->paragraphs($user_para_request);
+      # If using words
+      $word = $gen->word($user_para_request);
+      $words = $gen->words($user_para_request);
+      # If  using senteces
+      $sentence = $gen->sentence($user_para_request);
+      $sentences = $gen->sentences($user_para_request);
+      # If using arrays of words ... sentenceArray or paragraphArray
+      $warray = $gen->wordsArray($user_para_request);
+      # If using paragraphs
+      $paragraph = $gen->paragraph($user_para_request);
+      #$para = $gen->paragraphs($user_para_request); # no p tag included
       $para = $gen->paragraphs($user_para_request, 'p');
-      $warray = $gen->wordsArray(5); #sentenceArray or paragraphArray
-      #return $para;
-      return view('templates.show_lorem_text')->with('results', $para);
 
-     #return " This is what you picked $user_para_request";
+      return view('templates.show_lorem_text')->with('results', $para);
 
     }
 
     /**
-
      * Show the form for creating new users profile.
      *
      * @return \Illuminate\Http\Response
@@ -172,56 +164,9 @@ class P3Controller extends Controller
 
       }
 
-      #return " $result - You requested: Users: $user_request - Email: $user_email - Web Add: $user_web";
-      #return $result;
       # make a view in
       return view('templates.show_names')->with('result', $result);
 
-
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function showx($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
 }
