@@ -16,7 +16,7 @@
 
 </head>
 <body>
-
+@yield('nav')
  <div class='container' id='roundc'>
 
    {{-- Main page content will be yielded here --}}

@@ -12,7 +12,7 @@
     @endif
     <br><br>
 @endsection
-
-<br>
+@section('nav')
 <a href='/user'>&nbsp; &larr; back to User Generator</a>
 <br>
+@endsection

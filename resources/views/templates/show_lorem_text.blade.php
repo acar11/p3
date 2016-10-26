@@ -12,7 +12,7 @@
     @endif
     <br><br>
 @endsection
-
-<br>
+@section('nav')
 <a href='/lorem'>&nbsp; &larr; back to Lorem Ipsum Generator</a>
 <br>
+@endsection
