@@ -14,5 +14,5 @@
 @endsection
 
 <br>
-<a href='/lorem'>&nbsp; &larr; back to lorem-ipsum</a>
+<a href='/lorem'>&nbsp; &larr; back to Lorem Ipsum Generator</a>
 <br>
