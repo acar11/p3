@@ -15,9 +15,9 @@ The Random User Generator uses the same idea as the Lorem Ipsum Generator above 
 <http://www.screencast.com/t/hHPTRuyUvk>
 
 ## Special instruction for teaching team (TA)
-For generate random lorem-ipsum text click on the link "Generate lorem-ipsum here" link and follow the page instructions to request the number of paragraphs needed.
+For generate random lorem-ipsum text click on the link "Generate lorem-ipsum here" and follow the page instructions to request the number of paragraphs needed.
 
-For generate random user data click on the link "Generate users here" link and follow the page instructions and enter the desired number of users needed.
+For generate random user data click on the link "Generate users here" and follow the page instructions and enter the desired number of users needed.
 
 ## External Code Source
 * Bootstrap jumbotron-narrow.css http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css
