@@ -1,27 +1,24 @@
-# Laravel PHP Framework
+# Developer's Best Friend
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Github URL
+<https://github.com/acar11/p3>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Live URL
+<http://p3.harvarddynamicwebapps.xyz>
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Description
+Lorem Ipsum Generator - Lorem Ipsum refers to text that the DTP (Desktop Publishing) industry use as replacement text when the real text is not available.  The Lorem ipsum text looks real enough that your projects like, books, brochures, web applications will look complete. The projects can be shown to the client for approval.
+The Random User Generator uses the same idea as the Lorem Ipsum Generator above to create random user data for your applications.
 
-## Official Documentation
+## Screencast Demo
+<http://www.screencast.com/t/hHPTRuyUvk>
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+## Special instruction for teaching team (TA)
+For generate random lorem-ipsum text click on the link "Generate lorem-ipsum here" and follow the page instructions to request the number of paragraphs needed.
+For generate random user data click on the link "Generate users here" and follow the page instructions and enter the desired number of users needed.
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## External Code Source
+* Bootstrap jumbotron-narrow.css http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css
+* Bootstrap bootstrap.min.css https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+* Bootstrap bootstrap.min.js https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
+* Joshtronic/php-loremipsum https://github.com/joshtronic/php-loremipsum
