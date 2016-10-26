@@ -23,4 +23,5 @@ For generate random user data click on the link "Generate users here" and follow
 * Bootstrap jumbotron-narrow.css http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css
 * Bootstrap bootstrap.min.css https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
 * Bootstrap bootstrap.min.js https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
-* Joshtronic/php-loremipsum https://github.com/joshtronic/php-loremipsum
+* Joshtronic/php-loremipsum for random lorem-ipsum text https://github.com/joshtronic/php-loremipsum
+* Enternal .csv file for random users data.
