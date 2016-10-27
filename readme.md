@@ -12,7 +12,7 @@ Lorem Ipsum Generator - Lorem Ipsum refers to text that the DTP (Desktop Publish
 The Random User Generator uses the same idea as the Lorem Ipsum Generator above to create random user data for your applications.
 
 ## Screencast Demo
-<http://www.screencast.com/t/hHPTRuyUvk>
+<http://www.screencast.com/t/NdNZVm7Tll>
 
 ## Special instruction for teaching team (TA)
 For generate random lorem-ipsum text click on the link "Generate lorem-ipsum here" and follow the page instructions to request the number of paragraphs needed.
